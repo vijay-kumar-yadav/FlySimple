@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-
-const mongoURI = "mongodb+srv://prithidevghosh:39039820@cluster0.3amaqwo.mongodb.net/FlySimple"
+require('dotenv').config();
+const mongoURI = process.env.DATABASE_URI
 
 
 mongoose.connect(mongoURI, { useUnifiedTopology: true, useNewUrlParser: true })
