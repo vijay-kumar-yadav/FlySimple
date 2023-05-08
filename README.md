@@ -4,8 +4,8 @@
 
 <h3><i>Features</i></h3>
 <ul>
-<li>User registration and login with JWT authentication <a href="https://jwt.io/">JWT</a></li>
-<li>Password hashing for secure storage of user credentials</li>
+<li>User registration and login with JWT authentication --> <a href="https://jwt.io/">JWT</a></li>
+<li>Password hashing for secure storage of user credentials using bcrypt --> <a href="https://www.npmjs.com/package/bcrypt">bcrypt</a></li>
 <li>Search and view available flights between source and destination</li>
 </ul>
 
