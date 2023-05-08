@@ -9,3 +9,10 @@
 <li>Search and view available flights between source and destination</li>
 </ul>
 
+<h3><i>Prerequisites</i></h3>
+<ul>
+<li>Node.js v14.15.0 or higher</li>
+<li>NPM v6.14.8 or higher</li>
+<li>MongoDB v4.4 or higher</li>
+</ul>
+
