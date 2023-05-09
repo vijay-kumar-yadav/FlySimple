@@ -52,7 +52,11 @@ SESSION_SECRET_KEY ="your own key to encrypt the session information"
 ```
 <p>You can set these environment variables in a .env file in the root directory of the application.</p>
 
-| Command | Description |
+<h3><i>API Endpoints</i></h3>
+
+| Endpoint Name | Method | Purpose |
 | --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
+| `/api/user/create` | POST | Create a new user |
+| `/api/user/create-session` | POST | Create a session for user / Logging In User |
+| `/api/user/delete-session` | POST | Deleting session for user / Signing Out User |
+| `/api/flights/find` | POST | Find flights between two airports |
