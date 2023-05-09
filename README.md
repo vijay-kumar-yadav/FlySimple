@@ -38,3 +38,15 @@ npm install
 node index.js
 
 ```
+
+<h3><i>Configuration</i></h3>
+
+<p>The application requires a MongoDB instance to be set up. You can configure the database connection by setting the following environment variables:</p>
+
+```bash
+
+DATABASE_URI= "URI of your mongoDB instance"
+JWT_SECRET_KEY="your own JWT secret key",
+SESSION_SECRET_KEY="your own key to encrypt the session information"
+
+```
