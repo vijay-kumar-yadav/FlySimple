@@ -16,3 +16,8 @@
 <li>MongoDB v4.4 or higher</li>
 </ul>
 
+<h3><i>Installation</i></h3>
+<ol>
+  <li>Clone the repository</li>
+</ol>
+
