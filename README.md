@@ -52,6 +52,7 @@ SESSION_SECRET_KEY ="your own key to encrypt the session information"
 ```
 <p>You can set these environment variables in a .env file in the root directory of the application.</p>
 
+<html>
 <!-- This is an HTML code block with the Swagger UI Embed code -->
 <div id="swagger-ui"></div>
 
@@ -73,4 +74,6 @@ SESSION_SECRET_KEY ="your own key to encrypt the session information"
     })
   }
 </script>
+  
+</html>
 
