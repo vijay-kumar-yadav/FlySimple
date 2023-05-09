@@ -52,28 +52,7 @@ SESSION_SECRET_KEY ="your own key to encrypt the session information"
 ```
 <p>You can set these environment variables in a .env file in the root directory of the application.</p>
 
-<html>
-<!-- This is an HTML code block with the Swagger UI Embed code -->
-<div id="swagger-ui"></div>
-
-<script src="https://cdn.jsdelivr.net/npm/@swagger/swagger-ui@4.x.x/dist/swagger-ui-bundle.js"></script>
-<script>
-  window.onload = function() {
-    const ui = SwaggerUIBundle({
-      url: "https://petstore.swagger.io/v2/swagger.json",
-      dom_id: '#swagger-ui',
-      deepLinking: true,
-      presets: [
-        SwaggerUIBundle.presets.apis,
-        SwaggerUIBundle.SwaggerUIStandalonePreset
-      ],
-      plugins: [
-        SwaggerUIBundle.plugins.DownloadUrl
-      ],
-      layout: "StandaloneLayout"
-    })
-  }
-</script>
-  
-</html>
-
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
