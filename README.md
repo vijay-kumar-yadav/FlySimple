@@ -18,6 +18,8 @@
 
 <h3><i>Installation</i></h3>
 ## Clone the repo
-```git clone https://github.com/prithidevghosh/NestBlog.git```
+```bash
 
+git clone https://github.com/prithidevghosh/NestBlog.git
 
+```
