@@ -45,8 +45,9 @@ node index.js
 
 ```bash
 
-DATABASE_URI= "URI of your mongoDB instance"
-JWT_SECRET_KEY="your own JWT secret key",
-SESSION_SECRET_KEY="your own key to encrypt the session information"
+DATABASE_URI = "URI of your mongoDB instance"
+JWT_SECRET_KEY ="your own JWT secret key",
+SESSION_SECRET_KEY ="your own key to encrypt the session information"
 
 ```
+<p>You can set these environment variables in a .env file in the root directory of the application.</p>
