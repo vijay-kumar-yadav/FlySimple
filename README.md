@@ -24,3 +24,10 @@
 git clone https://github.com/prithidevghosh/NestBlog.git
 
 ```
+## Install the required packages
+```bash
+
+cd Backend
+npm install
+
+```
