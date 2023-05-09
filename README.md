@@ -31,3 +31,10 @@ cd Backend
 npm install
 
 ```
+
+## Start the server locally
+```bash
+
+node index.js
+
+```
