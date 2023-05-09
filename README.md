@@ -21,7 +21,7 @@
 ## Clone the repo
 ```bash
 
-git clone https://github.com/prithidevghosh/NestBlog.git
+git clone https://github.com/prithidevghosh/FlySimple.git
 
 ```
 ## Install the required packages
