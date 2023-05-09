@@ -55,7 +55,7 @@ SESSION_SECRET_KEY ="your own key to encrypt the session information"
 <h3><i>API Endpoints</i></h3>
 
 | Endpoint Name | Method | Purpose |
-| --- | --- |
+| --- | --- | --- |
 | `/api/user/create` | POST | Create a new user |
 | `/api/user/create-session` | POST | Create a session for user / Logging In User |
 | `/api/user/delete-session` | POST | Deleting session for user / Signing Out User |
