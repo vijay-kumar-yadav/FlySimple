@@ -54,6 +54,7 @@ SESSION_SECRET_KEY ="your own key to encrypt the session information"
 
 <h3><i>API Endpoints</i></h3>
 
+| --- | --- |
 |Base URL|NUD|
 
 | Endpoint Name | Method | Purpose |
