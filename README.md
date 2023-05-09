@@ -17,10 +17,11 @@
 </ul>
 
 <h3><i>Installation</i></h3>
-<ol>
-  ## Clone the repository
-  ```bash
-  git clone https://github.com/prithidevghosh/FlySimple.git
-  ```
-</ol>
+## Clone the repo
+```bash
+
+git clone https://github.com/prithidevghosh/NestBlog.git
+
+```
+
 
