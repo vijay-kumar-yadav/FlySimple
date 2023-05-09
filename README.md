@@ -19,6 +19,8 @@
 <h3><i>Installation</i></h3>
 <ol>
   <li>Clone the repository</li>
-  ```git clone https://github.com/prithidevghosh/FlySimple.git```
+  ```bash
+  git clone https://github.com/prithidevghosh/FlySimple.git
+  ```
 </ol>
 
