@@ -5,9 +5,9 @@ const flightController = require('../controller/flight-controller');
 
 let auth = ""
 
-ROUTER.post('/find', passport.authenticate('jwt', { failureRedirect: '/api/user/create-session' }), flightController.FINDFLIGHTS);
+// ROUTER.post('/find', passport.authenticate('jwt', { failureRedirect: '/api/user/create-session' }), flightController.FINDFLIGHTS);
 
-ROUTER.get('/tariff/:source/:destination/:date', flightController.FINDFLIGHTS);
+ROUTER.get('/tariff/:source/:destination/:date', passport.authenticate('jwt', { failureRedirect: '/api/user/create-session', failureMessage: "authorization invalid" }), flightController.FINDFLIGHTS);
 
 
 
