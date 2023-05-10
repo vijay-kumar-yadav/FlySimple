@@ -7,7 +7,7 @@ let auth = ""
 
 ROUTER.post('/find', passport.authenticate('jwt', { failureRedirect: '/api/user/create-session' }), flightController.FINDFLIGHTS);
 
-ROUTER.get('/tariff/:source/:destination/:date/:adults', flightController.FINDFLIGHTS);
+ROUTER.get('/tariff/:source/:destination/:date', flightController.FINDFLIGHTS);
 
 
 

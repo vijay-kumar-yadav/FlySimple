@@ -28,8 +28,8 @@ module.exports.FINDFLIGHTS = async (req, res) => {
         const source = req.params.source;
         const destination = req.params.destination;
         const date = req.params.date;
-        const adults = req.params.adults
-        const response = await axios.get(`https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=${source}&destinationLocationCode=${destination}&departureDate=${date}&adults=${adults}&currencyCode=INR`, {
+
+        const response = await axios.get(`https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=${source}&destinationLocationCode=${destination}&departureDate=${date}&adults=1&currencyCode=INR`, {
             headers: {
                 'Authorization': 'Bearer ' + auth
             }
